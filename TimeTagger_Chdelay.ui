@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1049</width>
+    <height>396</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1049</width>
+    <height>1103</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Arial</family>
+    <pointsize>18</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <widget class="QWidget" name="widget_2" native="true">
+      <widget class="QLabel" name="label_address">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>20</y>
+         <width>122</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Time Tagger Ultra</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_add">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>20</y>
+         <width>150</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>2143000Y02</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="push_connect">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>20</y>
+         <width>75</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>connect</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="push_disconnect">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>20</y>
+         <width>83</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>disconnect</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_connect">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>20</y>
+         <width>32</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>OFF</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>1291</width>
+         <height>821</height>
+        </rect>
+       </property>
+       <widget class="QCheckBox" name="checkBox_1_14">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>18</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_1_17">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>100</y>
+          <width>18</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_1_18">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>100</y>
+          <width>18</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_1_11">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>100</y>
+          <width>17</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_1_16">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>100</y>
+          <width>18</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_1_10">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>100</y>
+          <width>18</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_1_12">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>100</y>
+          <width>18</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_1_13">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>100</y>
+          <width>18</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_1_15">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>100</y>
+          <width>18</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_1_3">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>80</y>
+          <width>18</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_1_5">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>80</y>
+          <width>18</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_1_2">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>80</y>
+          <width>17</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_1_7">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>80</y>
+          <width>18</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_1_8">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>80</y>
+          <width>18</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_1_9">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>80</y>
+          <width>18</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_1_4">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>80</y>
+          <width>18</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_1_1">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>80</y>
+          <width>18</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_1_6">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>80</y>
+          <width>18</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>80</y>
+          <width>47</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>1-9</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>100</y>
+          <width>47</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>10-18</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="measure">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>70</y>
+          <width>441</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>20</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>MEASURE</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="relash">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>70</y>
+          <width>131</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Fresh</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="CLOSE">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>170</y>
+          <width>181</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>20</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>CLOSE</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="result">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>140</y>
+          <width>511</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Label_parameter_2">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>481</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Please choose two channels to calculate the delay time.</string>
+        </property>
+       </widget>
+       <widget class="QLCDNumber" name="delay_time">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>220</y>
+          <width>341</width>
+          <height>71</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="result_2">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>220</y>
+          <width>31</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>18</pointsize>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>ps</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>60</y>
+         <width>154</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Coinc. Windows (ns)</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="set_coin_windows">
+       <property name="geometry">
+        <rect>
+         <x>53</x>
+         <y>60</y>
+         <width>91</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="set_integ_time">
+       <property name="geometry">
+        <rect>
+         <x>303</x>
+         <y>60</y>
+         <width>91</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>60</y>
+         <width>162</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Integ. time (ms)</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="set_all">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>60</y>
+         <width>162</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Set All</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Label_parameter">
+       <property name="geometry">
+        <rect>
+         <x>700</x>
+         <y>40</y>
+         <width>281</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Please Connect TimeTagger!!</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

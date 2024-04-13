@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1279</width>
+    <height>742</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget_18">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>550</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_20"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_13">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>370</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_12"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_8">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>190</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_7"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_5">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>100</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_4"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_6">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>100</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_5"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_7">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>190</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_6"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_22">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>550</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_18"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_12">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>280</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_9"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_3"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_9">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>190</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_8"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_21">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>460</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_17"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_14">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>640</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_22"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_20">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>640</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_23"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>10</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_1"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_10">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>280</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_10"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_0"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_16">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>370</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_14"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_15">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>370</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_13"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_11">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>280</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_11"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_19">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>460</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_16"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_23">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>460</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_15"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_24">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>640</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_21"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>10</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_2"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_17">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>550</y>
+     <width>421</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_pattern_19"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

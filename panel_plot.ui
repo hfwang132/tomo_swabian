@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>583</width>
+    <height>862</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget_setting" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>561</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_1"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>0</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_2"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>0</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_3"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>0</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_4"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_5">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>0</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_5"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_6">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>0</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_6"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_7">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>0</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_7"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_8">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>0</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_8"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_9">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>110</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_9"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_10">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>110</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_10"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_11">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>110</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_11"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_12">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>110</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_12"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_13">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>110</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_13"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_14">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>110</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_14"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_15">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>110</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_15"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_16">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>110</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_16"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_17">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>220</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_17"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_18">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>220</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_18"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_19">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>220</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_19"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_20">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>220</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_20"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_21">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>220</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_21"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_22">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>220</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_22"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_23">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>220</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_23"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_24">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>220</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_check_24"/>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_25">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>370</y>
+     <width>561</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_plot"/>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>561</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="PltVolSet">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>10</y>
+      <width>41</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>SET</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Plot points</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="Plot_Volume">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>10</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PltClear">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>10</y>
+      <width>41</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>CLEAR</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
