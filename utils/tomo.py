@@ -40,7 +40,7 @@ for i in range(1, 17):
 # 2. set delay
 # you can retrieve these delays from `all_channel_delay.py`
 
-delays = [-2652, -6350, -9632, -4300, -9227, -4585, -9050, -8720, -7812, -3165, -12087]
+delays = [-2652, -6350, -9432, -4300, -9027, -4585, -9050, -8720, -7812, -2965, -12087]
 
 for i in range(11):
     tagger.setInputDelay(i + 2, delays[i])

@@ -7,12 +7,12 @@ import time
 
 tagger = createTimeTagger()
 for i in range(1, 19):
-    tagger.setTriggerLevel(i, 1)
+    tagger.setTriggerLevel(i, 0.5)
 print("TimeTagger ultra Connect Sucessfully")
 
 bin_width = 5
 number_bin = 20000
-sec = 30
+sec = 10
 
 # Define Correlation
 
