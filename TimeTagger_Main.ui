@@ -1014,6 +1014,9 @@
           <pointsize>12</pointsize>
          </font>
         </property>
+        <property name="maximum">
+         <number>100</number>
+        </property>
        </widget>
        <widget class="QSpinBox" name="set_integ_time">
         <property name="geometry">

@@ -44,7 +44,7 @@ class Ui(QMainWindow):
         self.ui.verticalLayout_timer.addWidget(self.my_timer)
         for i in range(1, 19):
             exec('self.ui.delay_value_{}.setRange(-99999, 99999)'.format(i))
-        self.ui.set_coin_windows.setRange(1, 10)
+        self.ui.set_coin_windows.setRange(1, 100)
         self.coin_windows = 1
         self.ui.set_integ_time.setRange(1, 10000000)
         self.ui.set_integ_time.setValue(100)
@@ -131,11 +131,11 @@ class Ui(QMainWindow):
         if self.connect_value == 0:
             self.connect_value = 1
             self.tagger = createTimeTagger()
-            for i in range(1, 19):
-                self.tagger.setTriggerLevel(i, 0.8)
+            for i in range(1, 16):
+                self.tagger.setTriggerLevel(i, 0.085)
             # self.tagger.setTriggerLevel(15, 0.8)
             # self.tagger.setTriggerLevel(2, 2.3)
-            self.set_delays()
+            # self.set_delays()
             print("TimeTagger ultra Connect Sucessfully")
             self.Label_parameter.setText("Connected")
             self.label_connect.setText("ON")
