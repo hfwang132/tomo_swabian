@@ -221,9 +221,9 @@
        <widget class="QSpinBox" name="delay_value_15">
         <property name="geometry">
          <rect>
-          <x>600</x>
+          <x>590</x>
           <y>70</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -240,9 +240,9 @@
        <widget class="QSpinBox" name="delay_value_7">
         <property name="geometry">
          <rect>
-          <x>199</x>
+          <x>189</x>
           <y>70</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -278,9 +278,9 @@
        <widget class="QSpinBox" name="delay_value_18">
         <property name="geometry">
          <rect>
-          <x>810</x>
+          <x>800</x>
           <y>40</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -299,7 +299,7 @@
          <rect>
           <x>7</x>
           <y>100</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -316,9 +316,9 @@
        <widget class="QSpinBox" name="delay_value_12">
         <property name="geometry">
          <rect>
-          <x>400</x>
+          <x>390</x>
           <y>100</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -335,7 +335,7 @@
        <widget class="QPushButton" name="set_Ch1_delay">
         <property name="geometry">
          <rect>
-          <x>80</x>
+          <x>90</x>
           <y>10</y>
           <width>41</width>
           <height>24</height>
@@ -354,9 +354,9 @@
        <widget class="QSpinBox" name="delay_value_17">
         <property name="geometry">
          <rect>
-          <x>810</x>
+          <x>800</x>
           <y>10</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -392,7 +392,7 @@
        <widget class="QPushButton" name="set_Ch4_delay">
         <property name="geometry">
          <rect>
-          <x>80</x>
+          <x>90</x>
           <y>100</y>
           <width>41</width>
           <height>24</height>
@@ -430,9 +430,9 @@
        <widget class="QSpinBox" name="delay_value_16">
         <property name="geometry">
          <rect>
-          <x>600</x>
+          <x>590</x>
           <y>100</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -449,9 +449,9 @@
        <widget class="QSpinBox" name="delay_value_8">
         <property name="geometry">
          <rect>
-          <x>199</x>
+          <x>189</x>
           <y>100</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -468,9 +468,9 @@
        <widget class="QSpinBox" name="delay_value_13">
         <property name="geometry">
          <rect>
-          <x>600</x>
+          <x>590</x>
           <y>10</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -525,9 +525,9 @@
        <widget class="QSpinBox" name="delay_value_9">
         <property name="geometry">
          <rect>
-          <x>400</x>
+          <x>390</x>
           <y>10</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -546,7 +546,7 @@
          <rect>
           <x>7</x>
           <y>40</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -557,7 +557,10 @@
          </font>
         </property>
         <property name="minimum">
-         <number>-99</number>
+         <number>-999999</number>
+        </property>
+        <property name="maximum">
+         <number>999999</number>
         </property>
        </widget>
        <widget class="QPushButton" name="set_Ch9_delay">
@@ -584,7 +587,7 @@
          <rect>
           <x>7</x>
           <y>10</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -595,7 +598,10 @@
          </font>
         </property>
         <property name="minimum">
-         <number>-99</number>
+         <number>-999999</number>
+        </property>
+        <property name="maximum">
+         <number>999999</number>
         </property>
        </widget>
        <widget class="QPushButton" name="set_Ch7_delay">
@@ -620,7 +626,7 @@
        <widget class="QPushButton" name="set_Ch3_delay">
         <property name="geometry">
          <rect>
-          <x>80</x>
+          <x>90</x>
           <y>70</y>
           <width>41</width>
           <height>24</height>
@@ -677,9 +683,9 @@
        <widget class="QSpinBox" name="delay_value_5">
         <property name="geometry">
          <rect>
-          <x>199</x>
+          <x>189</x>
           <y>10</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -753,9 +759,9 @@
        <widget class="QSpinBox" name="delay_value_11">
         <property name="geometry">
          <rect>
-          <x>400</x>
+          <x>390</x>
           <y>70</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -772,9 +778,9 @@
        <widget class="QSpinBox" name="delay_value_6">
         <property name="geometry">
          <rect>
-          <x>199</x>
+          <x>189</x>
           <y>40</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -831,7 +837,7 @@
          <rect>
           <x>7</x>
           <y>70</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -848,9 +854,9 @@
        <widget class="QSpinBox" name="delay_value_14">
         <property name="geometry">
          <rect>
-          <x>600</x>
+          <x>590</x>
           <y>40</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -867,9 +873,9 @@
        <widget class="QSpinBox" name="delay_value_10">
         <property name="geometry">
          <rect>
-          <x>400</x>
+          <x>390</x>
           <y>40</y>
-          <width>71</width>
+          <width>81</width>
           <height>24</height>
          </rect>
         </property>
@@ -886,7 +892,7 @@
        <widget class="QPushButton" name="set_Ch2_delay">
         <property name="geometry">
          <rect>
-          <x>80</x>
+          <x>90</x>
           <y>40</y>
           <width>41</width>
           <height>24</height>

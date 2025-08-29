@@ -8,12 +8,11 @@ import time
 ch_1 = int(sys.argv[1])
 ch_2 = int(sys.argv[2])
 sec = int(sys.argv[3])
-number_bin = int(sys.argv[4])
 
 def Tagger_Connect():
     tagger = createTimeTagger()
-    for i in range(1, 16):
-        tagger.setTriggerLevel(i, 0.4)
+    for i in range(1, 19):
+        tagger.setTriggerLevel(i, 1.0)
     print("TimeTagger ultra Connect Sucessfully")
     return tagger
 
@@ -47,11 +46,12 @@ def Get_correlation(tagger,list,res_value,number_bin):
 tagger = Tagger_Connect()
 
 measure_list = [ch_1, ch_2]
-res_value = 1
+res_value = 5
+number_bin = int(sys.argv[4])
 data = Get_correlation(tagger,measure_list,res_value,number_bin)
 x_time = np.linspace(-res_value*number_bin/2, res_value*(number_bin)/2, number_bin, endpoint=False)
 
-plt.plot(x_time/1000,data,"-")
+plt.plot(x_time/1000,data)
 plt.xlabel("Time (ns)")
 plt.ylabel("Correlation Counts")
 plt.show()

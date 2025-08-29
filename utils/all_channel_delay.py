@@ -7,7 +7,7 @@ import time
 
 tagger = createTimeTagger()
 for i in range(1, 19):
-    tagger.setTriggerLevel(i, 0.5)
+    tagger.setTriggerLevel(i, 0.1)
 print("TimeTagger ultra Connect Sucessfully")
 
 bin_width = 5

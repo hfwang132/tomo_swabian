@@ -43,7 +43,7 @@ class Ui(QMainWindow):
         self.my_timer = Timer_Widget(self)
         self.ui.verticalLayout_timer.addWidget(self.my_timer)
         for i in range(1, 19):
-            exec('self.ui.delay_value_{}.setRange(-99999, 99999)'.format(i))
+            exec('self.ui.delay_value_{}.setRange(-999999, 999999)'.format(i))
         self.ui.set_coin_windows.setRange(1, 100)
         self.coin_windows = 1
         self.ui.set_integ_time.setRange(1, 10000000)
@@ -132,9 +132,8 @@ class Ui(QMainWindow):
             self.connect_value = 1
             self.tagger = createTimeTagger()
             for i in range(1, 16):
-                self.tagger.setTriggerLevel(i, 0.085)
-            # self.tagger.setTriggerLevel(15, 0.8)
-            # self.tagger.setTriggerLevel(2, 2.3)
+                self.tagger.setTriggerLevel(i, 0.4)
+            # self.tagger.setTriggerLevel(1, 0.5)
             # self.set_delays()
             print("TimeTagger ultra Connect Sucessfully")
             self.Label_parameter.setText("Connected")
@@ -150,9 +149,16 @@ class Ui(QMainWindow):
 
     def set_delays(self):
         if self.connect_value == 1:
-            for i in range(1, 19):
+            for i in range(1, 16):
                 exec('self.tagger.setInputDelay(i, int(self.ui.delay_value_{}.value()))'.format(i))
                 self.delay_label.setText("Channel Delay Set")
+                print("Delay set successfully.")
+            delay_hw_1 = self.tagger.getDelayHardware(1)
+            delay_hw_2 = self.tagger.getDelayHardware(2)
+            print(f"Hardware delay: {delay_hw_1}, {delay_hw_2}")
+            delay_sw_1 = self.tagger.getDelaySoftware(1)
+            delay_sw_2 = self.tagger.getDelaySoftware(2)
+            print(f"Software delay: {delay_sw_1}, {delay_sw_2}")
         else:
             self.Label_parameter.setText("Please Connect TimeTagger!")
 
